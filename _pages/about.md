@@ -5,7 +5,7 @@ permalink: /
 subtitle: All for Robotics.
 
 profile:
-  align: left
+  align: right
   image: hanzhang_pic.png
   image_circular: false # crops the image to make it circular
   #address: >
@@ -24,3 +24,5 @@ I am a research assistant at [IIIS, Tsinghua University](https://iiis.tsinghua.e
 I was a Co-Founder of [Dexta Robotics Inc.](https://www.dextarobotics.com/).
 
 I obtained my bachelor degree from Tsinghua University, with a solid background in **Electronic Engineering** and **Mechanical Engineering**.
+
+I led Team Tinker (in the RoboCup @Home Open Platfrom competition).

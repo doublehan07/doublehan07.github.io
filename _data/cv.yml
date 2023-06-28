@@ -3,18 +3,17 @@
   contents:
     - name: Full Name
       value: Han Zhang
-    - name: Date of Birth
-      value: 21st November 1996
-    - name: Languages
-      value: English, Chinese
+    - name: Email
+      value: doublehan07@outlook.com
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor Degree, Department of Electronic Engineering
+    - title: Bachelor Degree
       institution: Tsinghua University
       year: 2014
       description:
+        -  Major in Electronic Engineering
 
 - title: Experience
   type: time_table
@@ -23,7 +22,16 @@
       institution: Dexta Robotics Inc.
       year: 2015-2018
       description:
+        - Haptic force feedback gloves/exoskeletons.
         - For more details, please check our website. http://dextarobotics.com/
+
+    - title: CTO
+      institution: Jaresh Tech Inc.
+      year: 2020-2021
+      description:
+        - A startup focusing on Mixed Reality.
+        - With authorized patent (CN202130465143.0).
+        - Lead the EVT (Engineering Verification Test) and DVT (Design Verification Test) of the product prototype.
 
 - title: Honors and Awards
   type: time_table

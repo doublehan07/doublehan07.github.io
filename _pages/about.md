@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a research assistant at [IIIS, Tsinghua University](https://iiis.tsinghua.edu.cn/en/), advised by [Prof. Huazhe Xu](http://hxu.rocks/index.html).
 
-I was a Co-Founder of [Dexta Robotics Inc.](https://www.dextarobotics.com/).
+I was a Co-Founder of [Dexta Robotics Inc.](https://www.dextarobotics.com/)
 
 I obtained my bachelor degree from Tsinghua University, with a solid background in **Electronic Engineering** and **Mechanical Engineering**.
 

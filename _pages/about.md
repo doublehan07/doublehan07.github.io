@@ -25,4 +25,4 @@ I was a Co-Founder of [Dexta Robotics Inc.](https://www.dextarobotics.com/)
 
 I obtained my bachelor degree from Tsinghua University, with a solid background in **Electronic Engineering** and **Mechanical Engineering**.
 
-I led Team Tinker (in the RoboCup @Home Open Platfrom competition).
+I led Team Tinker (in the RoboCup @Home Open Platform competition).

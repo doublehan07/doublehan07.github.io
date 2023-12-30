@@ -9,3 +9,4 @@ giscus_comments: true
 related_posts: false
 related_publications: einstein1950meaning, einstein1905movement
 ---
+To include a jupyter notebook in a post, you can use the following code:

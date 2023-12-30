@@ -65,7 +65,7 @@ layout: default
               {% include resume/basics.html %}
             {% when "education" %}
               {% include resume/education.html %}
-            {% when "work" %}
+            {% when "experience" %}
               {% include resume/work.html %}
             {% when "volunteer" %}
               {% include resume/volunteer.html %}
@@ -83,6 +83,10 @@ layout: default
               {% include resume/interests.html %}
             {% when "certificates" %}
               {% include resume/certificates.html %}
+            {% when "academic interests" %}
+              {% include resume/acinterests.html %}
+            {% when "hobbies" %}
+              {% include resume/hobbies.html %}
             {% else %}
 
           {% endcase %}

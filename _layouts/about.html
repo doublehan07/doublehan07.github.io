@@ -12,8 +12,27 @@ layout: default
             <!-- {% assign desc = page.subtitle | append: "<br>" | append: page.description %}
             {{ desc }} -->
             <p style="color: dimgray; margin-top: 0px; margin-bottom: 0px;">{{ page.subtitle }}</p>
-            {% assign email = "Email: " | append: page.email %}
-            <a href="mailto:{{ page.email }}" target="_blank" style="color: dimgray; margin-top: 0px; margin-bottom: 25px; display: inline-block;">{{ email }}</a>
+            <div id="emailLinkContainer"></div>
+            <script>
+              // Get the text from the element
+              var emailText = "{{ page.email }}";
+
+              // Replace ' AT ' with '@' and ' DOT ' with '.'
+              var formattedEmail = emailText.replace(/ AT /g, "@").replace(/ DOT /g, ".");
+
+              // Create the mailto link and set its properties
+              var mailtoLink = document.createElement('a');
+              mailtoLink.href = "mailto:" + formattedEmail;
+              mailtoLink.target = "_blank";
+              mailtoLink.style.color = "dimgray";
+              mailtoLink.style.marginTop = "0px";
+              mailtoLink.style.marginBottom = "25px";
+              mailtoLink.style.display = "inline-block";
+              mailtoLink.textContent = "Email: " + emailText;
+
+              // Append the mailto link to the container
+              document.getElementById('emailLinkContainer').appendChild(mailtoLink);
+            </script>
           </div>
         </header>
 

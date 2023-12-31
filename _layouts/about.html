@@ -8,7 +8,12 @@ layout: default
           <h1 class="post-title">
             {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+          <div class="desc">
+            <!-- {% assign desc = page.subtitle | append: "<br>" | append: page.description %}
+            {{ desc }} -->
+            <p style="color: dimgray; margin-top: 0px; margin-bottom: 0px;">{{ page.subtitle }}</p>
+            <p style="color: dimgray; margin-top: 0px; margin-bottom: 25px;">{{ page.description }}</p>
+          </div>
         </header>
 
         <article>
@@ -68,8 +73,10 @@ layout: default
 
               <div class="contact-note">
                 {{ site.contact_note }}
-              </div>
-
+                <div id="myMapContainer" style="width: 300px; margin: 0 auto;">
+                  <!-- <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=8JiMkH38h6PL8dcPkZ6iAN6Wzx1wWCTOXHRFl4jBd14&cl=ffffff&w=a"></script> -->
+                  <a href="https://clustrmaps.com/site/1by06"  title="Visit tracker"><img src="https://www.clustrmaps.com/map_v2.png?d=8JiMkH38h6PL8dcPkZ6iAN6Wzx1wWCTOXHRFl4jBd14&cl=ffffff" /></a>
+                </div>
             </div>
           {%- endif %}
         </article>

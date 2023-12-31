@@ -12,7 +12,8 @@ layout: default
             <!-- {% assign desc = page.subtitle | append: "<br>" | append: page.description %}
             {{ desc }} -->
             <p style="color: dimgray; margin-top: 0px; margin-bottom: 0px;">{{ page.subtitle }}</p>
-            <p style="color: dimgray; margin-top: 0px; margin-bottom: 25px;">{{ page.description }}</p>
+            {% assign email = "Email: " | append: page.email %}
+            <a href="mailto:{{ page.email }}" target="_blank" style="color: dimgray; margin-top: 0px; margin-bottom: 25px; display: inline-block;">{{ email }}</a>
           </div>
         </header>
 

@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: All for Robotics.
-email: "doublehan07 AT outlook DOT com"
+email: "doublehan07 AT gmail DOT com"
 
 profile:
   align: right

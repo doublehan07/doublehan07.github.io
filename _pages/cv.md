@@ -3,6 +3,6 @@ layout: cv
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 4
-# cv_pdf: CV-HanZhang-CN.pdf
+nav_order: 3
+cv_pdf: Han_Zhang_CV.pdf
 ---

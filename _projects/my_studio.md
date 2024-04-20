@@ -74,7 +74,7 @@ However, it's really time-consuming to use UG to design the tool path and set th
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/project/my_studio/cnc.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/project/my_studio/cnc.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
         <div class="caption">
             Pocket CNC machine working on a workpiece.
             <br>

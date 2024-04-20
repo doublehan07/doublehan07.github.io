@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ham Radio
-description: DE BI1NWO 73
+description: DE BI1NWO 73 <br> Satellite, FM, SSB, CW, FT8......
 img: assets/img/project/ham_radio/ham_radio.jpg
 importance: 1
 category: fun
@@ -85,7 +85,7 @@ The first commemorative card is available in limited numbers from October 2023 t
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/project/ham_radio/qsl1.jpg" title="My QSL Cards" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
-            The first commemorative card shows me using an STL-SDR and a U7V4 Yagi antenna to receive <a href="https://amsat-uk.org/beginners/iss-sstv/">the SSTV signal from the International Space Station</a>.
+            The first commemorative card shows me using an RTL-SDR and a U7V4 Yagi antenna to receive <a href="https://amsat-uk.org/beginners/iss-sstv/">the SSTV signal from the International Space Station</a>.
         </div>
     </div>
 </div>

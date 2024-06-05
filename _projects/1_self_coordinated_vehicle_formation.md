@@ -5,6 +5,7 @@ description: Robots use UWB technology for self-coordinating positioning.
 img: assets/img/project/svf/svf.gif
 importance: 1
 category: work
+giscus_comments: true
 width: 250px
 ---
 
@@ -73,7 +74,7 @@ From October 2015 to May 2016, I developed the first version of this project, `h
 
 From June 2016 to July 2016, [Feng Ge](https://ieeexplore.ieee.org/author/37086689078) assisted with the Decawave protocols for the second version. Additionally, I redesigned the motor driver to a brand new version:)
 
-Subsequently, [Laixi Shi](https://laixishi.github.io/), [Wenhao Ding](https://wenhao.pub/), and [Junda Bi](https://junda.bi/) joined and contributed to the final version.
+Subsequently, [Laixi Shi](https://laixishi.github.io/), [Wenhao Ding](https://wenhao.pub/), [Tuopu Wen](https://ieeexplore.ieee.org/author/37086546764), and [Junda Bi](https://junda.bi/) joined and contributed to the final version.
 
 ## Brief Introduction to the Project
 We use ultra-wideband (UWB) wireless technology to measure the distance between any two robot cars, eliminating the need for a base station to localize any car. The cars self-coordinate to determine their positions.

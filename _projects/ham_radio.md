@@ -3,8 +3,9 @@ layout: page
 title: Ham Radio
 description: DE BI1NWO 73 <br> Satellite, FM, SSB, CW, FT8......
 img: assets/img/project/ham_radio/ham_radio.jpg
-importance: 1
+importance: 2
 category: fun
+giscus_comments: true
 width: 250px
 ---
 
@@ -75,6 +76,32 @@ During portable operations, I often use an ICOM IC-705 with [a DIY V-pole or inv
     </div>
 </div>
 
+## Under Construction: My Ham Radio Base Station
+Recently, I was lucky enough to acquire rooftop access thanks to my friend **BI1OLC**. This has given me the opportunity to build my own ham radio base station at [ON70](https://gridmaster.fr/grid-on70-sat).
+
+For satellite communication, I purchased Diamond Yagis for the base station.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project/ham_radio/yagis_at_on70.jpg" title="The Diamond U15 Yagi antenna at my base station" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            <a href="https://www.diamondantenna.net/pdfdocs/A430S10and15.pdf">The Diamond U15 Yagi antenna</a> at my base station, temporarily mounted on a tripod.
+        </div>
+    </div>
+</div>
+
+Typically, Yagis should be mounted on a rotor. However, the Yaesu rotor is too expensive for operating just 2 Yagis. Therefore, I decided to buy an cheap industrial camera rotor instead, and modified it to serve as an antenna rotor. I plan to add encoders inside the rotor to obtain precise azimuth and elevation values. Then, I will write a script for the motion planning part.
+
+For [HF](https://en.wikipedia.org/wiki/High_frequency) communication, I purchased the ICOM IC-7300 in Akihabara during ICRA '24. It will be the main device I operate in the HF band. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project/ham_radio/7300_at_Akihabara.jpg" title="ICOM IC-7300 at Akihabara" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Got an ICOM IC-7300 at Akihabara, Tokyo, Japan.
+        </div>
+    </div>
+</div>
+
 ## My QSL Cards
 I have several different designs of [QSL cards](https://en.wikipedia.org/wiki/QSL_card).
 
@@ -114,10 +141,38 @@ The second QSL card, also printed in limited numbers, commemorates my first [Sum
     </div>
 </div>
 
-
 `I enjoy collecting paper QSL cards!` If we have a QSO, please send me your card, and I will send back my card. SWL QSLs are also welcome. For more details, see [here](https://www.qrz.com/db/BI1NWO).
 
-## My logbook
+## Friends in Ham Radio
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://www.qrz.com/db/BY1QH/">
+            {% include figure.html path="assets/img/project/ham_radio/by1qh.jpg" title="Tsinghua Amateur Radio Club, BY1QH" class="img-fluid rounded z-depth-1" %}
+        </a>
+        <div class="caption">
+            <a href="https://www.qrz.com/db/BY1QH/">Tsinghua Amateur Radio Club, BY1QH</a>
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://yurihou.github.io/">
+            {% include figure.html path="assets/img/project/ham_radio/bh9dwe.jpg" title="Yurihou, BH9DWE" class="img-fluid rounded z-depth-1" %}
+        </a>
+        <div class="caption">
+            <a href="https://yurihou.github.io/">Yurihou, BH9DWE</a>
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://echoandmoonlight.com/">
+            {% include figure.html path="assets/img/project/ham_radio/bi1qgx.jpg" title="Hydroxide, BI1QGX" class="img-fluid rounded z-depth-1" %}
+        </a>
+        <div class="caption">
+            <a href="https://echoandmoonlight.com/">Hydroxide, BI1QGX</a>
+        </div>
+    </div>
+</div>
+
+## My Logbook
 You can use the HRDLOG search service below to check our [QSO](https://en.wikipedia.org/wiki/Contact_(amateur_radio)).
 
 <p>

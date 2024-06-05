@@ -3,7 +3,7 @@ layout: page
 title: My studio
 description: Check out everything you may find in my studio. 
 img: assets/img/project/my_studio/my_studio.jpg
-importance: 2
+importance: 3
 category: fun
 giscus_comments: true
 width: 250px

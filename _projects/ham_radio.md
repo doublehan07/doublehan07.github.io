@@ -89,7 +89,7 @@ For satellite communication, I purchased Diamond Yagis for the base station.
     </div>
 </div>
 
-Typically, Yagis should be mounted on a rotor. However, the Yaesu rotor is too expensive for operating just 2 Yagis. Therefore, I decided to buy an cheap industrial camera rotor instead, and modified it to serve as an antenna rotor. I plan to add encoders inside the rotor to obtain precise azimuth and elevation values. Then, I will write a script for the motion planning part.
+Typically, Yagis should be mounted on a rotor. However, the Yaesu rotor is too expensive for operating just 2 Yagis. Therefore, I decided to buy a cheap industrial camera rotor instead, and modified it to serve as an antenna rotor. I plan to add encoders inside the rotor to obtain precise azimuth and elevation values. Then, I will write a script for the motion planning part.
 
 For [HF](https://en.wikipedia.org/wiki/High_frequency) communication, I purchased the ICOM IC-7300 in Akihabara during ICRA '24. It will be the main device I operate in the HF band. 
 

@@ -20,9 +20,11 @@ The McNuggets and fries toy walkie-talkies are really cute. They can transmit an
 I managed to get one on ``May 22, 2024``, immediately after McDonald's released the toy offer. **I rushed to the nearest store** and bought 20 McNuggets so I could be eligible to buy the toys.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/mm-walkie-talkie.jpg" title="McDonald's McNuggets- and fries-shaped toy walkie-talkies." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            McDonald's McNuggets and fries toy walkie-talkies.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/mm-walkie-talkie.jpg" title="McDonald's McNuggets- and fries-shaped toy walkie-talkies." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                McDonald's McNuggets and fries toy walkie-talkies.
+            </div>
         </div>
     </div>
 </div>
@@ -30,9 +32,11 @@ I managed to get one on ``May 22, 2024``, immediately after McDonald's released 
 ``As a ham and an engineer, I naturally disassembled them.``
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/mm-teardown.jpg" title="The teardown details of McDonald's toy walkie-talkies." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            The teardown details of McDonald's toy walkie-talkies.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/mm-teardown.jpg" title="The teardown details of McDonald's toy walkie-talkies." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                The teardown details of McDonald's toy walkie-talkies.
+            </div>
         </div>
     </div>
 </div>
@@ -64,9 +68,11 @@ So, an idea came to mind: ``what if I could modify the firmware of these toy wal
 To start with, I disassembled the toy walkie-talkies.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/DisassembleMM.gif" title="I disassembled the toy walkie-talkies." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            I disassembled the toy walkie-talkies.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/DisassembleMM.gif" title="I disassembled the toy walkie-talkies." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                I disassembled the toy walkie-talkies.
+            </div>
         </div>
     </div>
 </div>
@@ -74,17 +80,21 @@ To start with, I disassembled the toy walkie-talkies.
 Then, I used a multimeter to measure the connectivity of each pad on the circuit board. This helped me to eventually draw the circuit diagram of the toy walkie-talkie.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/DrawtheCircuit.gif" title="Draw the circuit diagram of the toy walkie-talkie using a multimeter." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Draw the circuit diagram of the toy walkie-talkie using a multimeter.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/DrawtheCircuit.gif" title="Draw the circuit diagram of the toy walkie-talkie using a multimeter." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                Draw the circuit diagram of the toy walkie-talkie using a multimeter.
+            </div>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/mm-circuit-en-zip.jpg" title="The circuit diagram of the McDonald's toy walkie-talkie." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            The circuit diagram of the McDonald's toy walkie-talkie.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/mm-circuit-en-zip.jpg" title="The circuit diagram of the McDonald's toy walkie-talkie." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                The circuit diagram of the McDonald's toy walkie-talkie.
+            </div>
         </div>
     </div>
 </div>
@@ -92,17 +102,21 @@ Then, I used a multimeter to measure the connectivity of each pad on the circuit
 After analyzing the circuit, I decided to remove the original MCU, and connect those I/Os to a new programmable MCU, where I could design and write new firmware to change the RX frequency.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/removemcu.gif" title="I decide to remove the original MCU." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            I decide to remove the original MCU.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/removemcu.gif" title="I decide to remove the original MCU." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                I decide to remove the original MCU.
+            </div>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/connectio.gif" title="Then connect those I/Os to a new programmable MCU." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Then connect those I/Os to a new programmable MCU.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/connectio.gif" title="Then connect those I/Os to a new programmable MCU." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                Then connect those I/Os to a new programmable MCU.
+            </div>
         </div>
     </div>
 </div>
@@ -110,9 +124,11 @@ After analyzing the circuit, I decided to remove the original MCU, and connect t
 Next, I bypassed the original filter behind the antenna since its working frequency was not suitable for satellite frequencies. I also replaced the original antenna with a 50-ohm coaxial cable, allowing for the future connection of a more powerful antenna.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/BoardConnection.jpg" title="Board connections." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Board Connections: The red wire bypasses the original filter.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/BoardConnection.jpg" title="Board connections." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                Board Connections: The red wire bypasses the original filter.
+            </div>
         </div>
     </div>
 </div>
@@ -120,17 +136,21 @@ Next, I bypassed the original filter behind the antenna since its working freque
 After modifying the circuit, it was time for the embedded part. So, I wrote the firmware for the STM32F042K6T6, a new MCU that handles all functions.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/coding1.gif" title="Me, writing the new firmware." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Me, writing the new firmware in my studio.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/coding1.gif" title="Me, writing the new firmware." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                Me, writing the new firmware in my studio.
+            </div>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/McDonald_toy_receiver/coding2.gif" title="Developing the STM32F042K6T6 firmware using STM32CubeMX and Keil UV5." class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Developing the STM32F042K6T6 firmware using STM32CubeMX and Keil UV5.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/McDonald_toy_receiver/coding2.gif" title="Developing the STM32F042K6T6 firmware using STM32CubeMX and Keil UV5." class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                Developing the STM32F042K6T6 firmware using STM32CubeMX and Keil UV5.
+            </div>
         </div>
     </div>
 </div>

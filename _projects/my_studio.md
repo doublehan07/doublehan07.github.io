@@ -73,9 +73,11 @@ I upgraded my Snapmaker with a dual extrusion module in March 2024, so now it ca
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/my_studio/dual.jpg" title="Dual Extrusion 3D Printing Module" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-        Wood PLA Filament + Grey PLA Filament
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/my_studio/dual.jpg" title="Dual Extrusion 3D Printing Module" class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+            Wood PLA Filament + Grey PLA Filament
+            </div>
         </div>
     </div>
 </div>

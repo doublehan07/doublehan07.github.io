@@ -101,15 +101,19 @@ The video below demostrates how the robot system transforms from a line into a r
 The images below show the robot system changing in size.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/svf/shrink.gif" title="Shrink the size" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            The robot system shrinks in size.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/svf/shrink.gif" title="Shrink the size" class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                The robot system shrinks in size.
+            </div>
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/svf/expand.gif" title="Expand the size" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            The robot system expands in size.
+        <div class="image-container" style="display: inline-block; position: relative;">
+            {% include figure.html path="assets/img/project/svf/expand.gif" title="Expand the size" class="img-fluid rounded z-depth-1" %}
+            <div class="caption" style="text-align: center; width: 100%; margin-top: 5px;">
+                The robot system expands in size.
+            </div>
         </div>
     </div>
 </div>

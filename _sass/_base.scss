@@ -202,6 +202,7 @@ blockquote {
 
 .profile {
   img {
+    max-width: 300px; /* Limit profile image size */
     width: 100%; /* Make profile image responsive */
   }
 }

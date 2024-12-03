@@ -36,7 +36,7 @@ Additionally, I have numerous boards like the Arduino Uno, Raspberry Pi, STM32, 
     </div>
 </div>
 
-And of course, there are two 3D printers, a pocket CNC, a tabletop SMT machine, and two fire extinguishers!
+And of course, there are <strong>three 3D printers</strong>, a pocket <strong>CNC</strong>, a tabletop <strong>SMT</strong> machine, and two fire extinguishers!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -59,16 +59,27 @@ And of course, there are two 3D printers, a pocket CNC, a tabletop SMT machine, 
     </div>
 </div>
 
-I upgraded my Snapmaker with a dual extrusion module recently, so it can print using two materials (e.g., PLA + Nylon) simultaneously.
-
+I recently purchased a brand-new <strong>Bambu P1SC 3D printer</strong> for my studio, and I couldn’t be happier with it! It’s smart, incredibly fast, and highly reliable with a low failure rate. `If you’re in the market for a 3D printer, I highly recommend the Bambu P1SC for personal projects and the Bambu X1CC for lab or commercial use!`
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project/my_studio/dual.jpg" title="Dual Extrusion 3D Printing Module" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project/my_studio/p1sc.jpg" title="Bambu P1SC 3D printer" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
-            Wood PLA Filament + Grey PLA Filament
+            Bambu P1SC 3D printer
         </div>
     </div>
 </div>
+
+I upgraded my Snapmaker with a dual extrusion module in March 2024, so now it can print with two materials (like PLA and Nylon) at the same time.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project/my_studio/dual.jpg" title="Dual Extrusion 3D Printing Module" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+        Wood PLA Filament + Grey PLA Filament
+        </div>
+    </div>
+</div>
+
 
 However, it's really time-consuming to use UG to design the tool path and set the spindle speed for a workpiece. That's why I rarely use the pocket CNC machine at home. (But I love staying at my friend's factory, using the huge commercial CNC Machine!)
 

@@ -3,7 +3,7 @@ layout: page
 title: Self-coordinated Vehicle Formation
 description: Robots use UWB technology for self-coordinating positioning.
 img: assets/img/project/svf/svf.gif
-importance: 1
+importance: 2
 category: work
 giscus_comments: true
 width: 250px

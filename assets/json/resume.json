@@ -11,8 +11,7 @@
       "highlights": [
         "Robot System Design (Full-stack, both hardware and software parts)",
         "Robot Learning",
-        "Tactile Sensing",
-        "Mobile Manipulation",
+        "Manipulation",
         "Modular Robots"
       ]
     },
@@ -34,7 +33,7 @@
       "summary": "",
       "highlights": [
         "Advised by Prof. Huazhe Xu.",
-        "Author of ArrayBot and 9DTact.",
+        "Author of ArrayBot, 9DTact and DOGlove.",
         "Contributes to the design of new hardware devices in the laboratory."
       ]
     },
@@ -145,9 +144,9 @@
         "C/C++, C#, Python, Matlab",
         "Verilog, MIPS",
         "FreeRTOS, Nuttx",
-        "Unity",
-        "ROS, OpenCV, webots, Gazebo, Qt, ....",
-        "Isaac Gym, MuJoCo, PyBullet"
+        "OpenCV, Qt",
+        "ROS, , webots, Gazebo, ....",
+        "Unity, MuJoCo, PyBullet"
       ]
     },
     {
@@ -157,7 +156,7 @@
       "keywords": [
         "Adode Photoshop, LightroomClassic",
         "Adobe Premiere Pro, After Effects",
-        "Adobe Audition, Avid ProTools",
+        "Adobe Audition",
         "Familiar with most XR platforms :)"
       ]
     }

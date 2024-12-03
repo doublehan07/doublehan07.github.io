@@ -4,7 +4,7 @@
     - name: Full Name
       value: Han Zhang
     - name: Email
-      value: doublehan07@outlook.com
+      value: doublehan07@gmail.com
 
 - title: Education
   type: time_table
@@ -63,7 +63,9 @@
   contents:
     - title: Robotics
       items: 
-        - Reinforcement Learning
+        - Robot System Design (Full-stack, both hardware and software parts)
+        - Robot Learning
+        - Manipulation
         - Modular Robots
     - title: Human Computer Interaction
       items:

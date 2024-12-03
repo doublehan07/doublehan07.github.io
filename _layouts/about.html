@@ -37,35 +37,47 @@ layout: default
         </header>
 
         <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+          <div class="page-layout">
+            <!-- Left Column -->
+            <div class="content">
+              {{ content }}
+            </div>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+            <!-- Middle Column -->
+            {% if page.profile -%}
+            <div class="profile-wrapper">
+              <div class="profile">
+                {%- if page.profile.image %}
+                  {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+                  {% if page.profile.image_circular %}
+                    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+                  {% else %}
+                    {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                  {% endif %}
+                  {% include figure.html
+                  path=profile_image_path
+                  class=profile_image_class
+                  alt=page.profile.image
+                  cache_bust=true -%}
+                {% endif -%}
 
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
-            {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
+                {%- if page.profile.more_info %}
+                <div class="more-info">
+                  {{ page.profile.more_info }}
+                </div>
+                {%- endif %}
+              </div>
             </div>
             {%- endif %}
-          </div>
-          {%- endif %}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
-
+            <!-- Contact Icons -->
+            {% if page.social %}
+            <div class="contact-icons">
+              {% include social.html %}
+            </div>
+            {% endif %}
+        </div>
+          
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2 style="color: inherit; margin-top: 20px;">News</h2>
@@ -87,9 +99,9 @@ layout: default
           <!-- Social -->
           {%- if page.social %}
             <div class="social">
-              <div class="contact-icons">
+              <!-- <div class="contact-icons">
                 {% include social.html %}
-              </div>
+              </div> -->
 
               <div class="contact-note">
                 {{ site.contact_note }}
@@ -97,6 +109,8 @@ layout: default
                   <!-- <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=080808&w=260&t=m&d=8JiMkH38h6PL8dcPkZ6iAN6Wzx1wWCTOXHRFl4jBd14&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=000000"></script> -->
                   <a href="https://clustrmaps.com/site/1by06"  title="Visit tracker"><img src="https://clustrmaps.com/map_v2.png?cl=080808&w=260&t=m&d=8JiMkH38h6PL8dcPkZ6iAN6Wzx1wWCTOXHRFl4jBd14&co=ffffff&ct=000000" /></a>
                 </div>
+              </div>
+
             </div>
           {%- endif %}
         </article>

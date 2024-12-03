@@ -161,37 +161,80 @@ blockquote {
 
 // Profile
 
-.profile {
-  width: 100%;
+.page-layout {
+  display: grid; /* Use CSS grid */
+  grid-template-columns: 60% 15px 30% 30px 10%; /* Define explicit widths and gaps */
+  align-items: start; /* Align items at the start of each row */
+}
 
-  .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+.content {
+  grid-column: 1; /* Place content in the first column */
+}
 
-    p {
-      display: inline-block;
-      margin: 0;
+.profile-wrapper {
+  grid-column: 3; /* Place profile in the second column */
+  display: flex;
+  flex-direction: column; /* Default column layout for profile and icons */
+  align-items: center;
+}
+
+.contact-icons {
+  grid-column: 5; /* Place contact icons in the third column */
+  display: flex;
+  flex-direction: column; /* Stack icons vertically */
+  justify-content: flex-start; /* Align to the top */
+  align-items: flex-start; /* Align icons with the profile image */
+  font-size: 2.5rem;
+
+  a {
+    i::before {
+      color: var(--global-text-color);
+      transition-property: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+      i::before {
+        color: var(--global-theme-color);
+      }
     }
   }
 }
 
-.profile.float-right {
-  margin-left: 1rem;
+.profile {
+  img {
+    width: 100%; /* Make profile image responsive */
+  }
 }
 
-.profile.float-left {
-  margin-right: 1rem;
-}
+/* Merged Media Query */
+@media (max-width: 670px) {
+  .page-layout {
+    grid-template-columns: 1fr; /* Make all content span full width */
+    row-gap: 20px; /* Add consistent vertical spacing */
+    column-gap: 0; /* No horizontal gaps since elements are stacked */
 
-@media (min-width: 576px) {
-  .profile {
-    width: 30%;
+    > .content {
+      grid-column: 1; /* Reset content to occupy full row */
+      order: 2; /* Ensure content comes last */
+    }
 
-    .address {
-      p {
-        display: block;
-      }
+    > .profile-wrapper {
+      grid-column: 1; /* Reset profile wrapper to occupy full row */
+      flex-direction: column; /* Ensure profile stays above icons */
+      align-items: center;
+    }
+
+    > .contact-icons {
+      grid-column: 1; /* Reset contact icons to occupy full row */
+      flex-direction: row; /* Change to horizontal layout */
+      justify-content: center; /* Center horizontally under profile image */
+      gap: 20px;
+      font-size: 4rem;
+    }
+
+    .profile {
+      order: 0; /* Ensure profile comes first */
+      align-self: center; /* Center profile image in smaller layout */
     }
   }
 }

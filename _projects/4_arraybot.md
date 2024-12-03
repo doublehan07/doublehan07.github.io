@@ -112,9 +112,9 @@ Every two atom units are assembled with one STM32 board as a modular unit.
 | Atom Unit       | Represents a single element of the 16×16 array. | [Atom Unit of ArrayBot](#the-atom-unit-of-arraybot) |
 | Control Board   | An STM32 board serving as the main controller.  | [Custom design](#control-board)                    |
 
-Since the ArrayBot uses a 16x16 array, and every two atom units form a modular unit, it’s easy to figure out we need 128 modular units in total. Simple math, but a *huge* numbe🤯.
+Since the ArrayBot uses a 16x16 array, and every two atom units form a modular unit, it’s easy to figure out we need 128 modular units in total. Simple math, but a *huge* number🤯.
 
-Getting over 100 custom circuit boards to work together wasn’t easy. There were plenty of hardware failures—soldering errors, broken components, random short circuits—you name it💥. To make sure I had 100 functional boards, I actually had to manufacture over 150. And let me tell you, soldering 150+ boards was an absolute nightmare😵‍💫. Easily one of the toughest parts of the whole project!
+```Getting over 100 custom circuit boards to work together wasn’t easy.``` There were plenty of hardware failures—soldering errors, broken components, random short circuits—you name it💥. To make sure I had 100 functional boards, I actually had to manufacture over 150. And let me tell you, soldering 150+ boards was an absolute nightmare😵‍💫. Easily one of the toughest parts of the whole project!
 
 ### Control Board
 

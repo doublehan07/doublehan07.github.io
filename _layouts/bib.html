@@ -191,6 +191,9 @@
           {%- if entry.tutorial %}
             <a href="{{ entry.tutorial }}" class="btn btn-sm z-depth-0" role="button">Tutorial</a>
           {%- endif %}
+          {%- if entry.hardware %}
+            <a href="{{ entry.hardware }}" class="btn btn-sm z-depth-0" role="button">Hardware</a>
+          {%- endif %}
           </div>
           {% if site.badges %}
           <div class="badges">
